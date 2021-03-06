@@ -1,0 +1,28 @@
+.MainChat
+  .RightHeader__group
+    .RightHeader__groupInfo
+      .RightHeader__groupName A
+      %ul.RightHeader__memberLists 
+        Member:
+        %li.RightHeader__members
+          test
+    = link_to "Edit", '/', class: "RightHeader__editButton"
+  .MessagesField
+    .MessageBox
+      .MessageInfo
+        .MessageInfo__userName
+          A
+        .MessageInfo__date
+          2020.2.28
+      .Message
+        %p.Message__content
+          Hello
+  .Footer
+    %form.Form
+      .Form__contents
+        %input{class: "Form__inputContent", placeholder: "Type a message"}
+        %label.Form__inputImage
+          = icon('far','image', class: 'Form__icon')
+          %input.Form__inputImage__hidden{type: "file"}
+      %input{type: 'submit', value: 'Send', class: "Form__submit"} 
+

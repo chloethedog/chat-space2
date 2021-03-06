@@ -1,0 +1,19 @@
+.SideBar
+  .LeftHeader
+    .LeftHeader__lists
+      %h3.LeftHeader__userName Test
+      %ul.LeftHeader__iconLists
+        %li.LeftHeader__icon
+          = link_to ""
+          = icon('fas', 'seedling')
+        %li.LeftHeader__icon
+          = link_to ""
+          = icon('fas', 'user-friends')
+        %li.LeftHeader__icon
+          = link_to ""
+          = icon('fas', 'cog')
+  .GroupLists
+    .Group
+      = link_to ""
+      .Group__name A
+      .Group__message Hello
