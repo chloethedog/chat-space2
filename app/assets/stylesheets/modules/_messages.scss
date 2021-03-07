@@ -34,7 +34,10 @@
       display: flex;
       justify-content: end;
       .LeftHeader__icon{
+        a{
+        color: #fff;
         margin-left: 5px;
+        }
       }
     }
   } 
