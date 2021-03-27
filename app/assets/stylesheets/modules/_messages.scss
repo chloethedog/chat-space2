@@ -50,12 +50,16 @@
   .Group{
     box-sizing: border-box;
     padding: 20px 0 40px;
-    &__name{
+    .Group__name{
       font-size: 15px;
+      text-decoration: none;
+      color: #fff;
     }
-    &__message{
+    .Group__message{
       font-size: 11px;
       margin-top: 5px;
+      text-decoration: none;
+      color: #fff;
     }
   }  
 }
